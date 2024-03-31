@@ -16,8 +16,12 @@ certifi==2024.2.2
     # via requests
 charset-normalizer==3.3.2
     # via requests
+click==8.1.7
+    # via uvicorn
 fastapi==0.110.0
     # via fastapi-demo
+h11==0.14.0
+    # via uvicorn
 idna==3.6
     # via anyio
     # via requests
@@ -37,3 +41,5 @@ typing-extensions==4.10.0
     # via pydantic-core
 urllib3==2.2.1
     # via requests
+uvicorn==0.29.0
+    # via fastapi-demo
